@@ -4,29 +4,29 @@ project(MuminCoin)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(MuminCoin main.cpp
-        Engine/Headers/Util.h
+        Engine/Headers/Util.hxx
         Engine/Util.cpp
-        Engine/Headers/Uint.h
-        Engine/Headers/UIBase.h
+        Engine/Headers/Uint.hxx
+        Engine/Headers/UIBase.hxx
         Engine/UIBase.cpp
-        Engine/Headers/UI.h
+        Engine/Headers/UI.hxx
         Engine/UI.cpp
-        Engine/Headers/Crypto/Sha.h
+        Engine/Headers/Crypto/Sha.hxx
         Engine/Crypto/Sha.cpp
-        Engine/Headers/Serialize.h
-        Engine/Headers/Script.h
+        Engine/Headers/Serialize.hxx
+        Engine/Headers/Script.hxx
         Engine/Script.cpp
-        Engine/Headers/Net/Net.h
+        Engine/Headers/Net/Net.hxx
         Engine/Net/Net.cpp
-        Engine/Headers/Market.h
+        Engine/Headers/Market.hxx
         Engine/Market.cpp
-        Engine/Headers/Main.h
-        Engine/Headers/Data/DataBase.h
+        Engine/Headers/Main.hxx
+        Engine/Headers/Data/DataBase.hxx
         Engine/DataBase.cpp
-        Engine/Headers/Header.h
-        Engine/Headers/Key.h
-        Engine/Headers/Net/Irc.h
+        Engine/Headers/Header.hxx
+        Engine/Headers/Key.hxx
+        Engine/Headers/Net/Irc.hxx
         Engine/Net/Irc.cpp
         Engine/Data/DataBase.cpp
-        Engine/Headers/Data/BigNum.h
-        Engine/Headers/Base.h)
+        Engine/Headers/Data/BigNum.hxx
+        Engine/Headers/Base.hxx)
